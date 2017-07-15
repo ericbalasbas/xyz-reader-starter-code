@@ -32,6 +32,25 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
+// TODO: App uses the Design Support library and its provided widget types (FloatingActionButton, AppBarLayout, SnackBar, etc).
+// DONE: Check res\layout\fragment_article_detail.xml to change to Design Support Library FloatingActionButton
+// TODO: Check res\layout\activity_article_detail.xml action_up to change to ???
+// is there a Material Design standard up arrow component
+// DONE: App uses CoordinatorLayout for the main Activity.
+// DONE: App theme extends from AppCompat.
+// TODO: App uses an AppBar and associated Toolbars.
+// TODO: App provides a Floating Action Button for the most common action(s).
+// TODO: App properly specifies elevations for app bars, FABs, and other elements specified in the Material Design specification.
+// http://www.google.com/design/spec/material-design/introduction.html
+// TODO: App has a consistent color theme defined in styles.xml. Color theme does not impact usability of the app.
+// TODO: Fix/remove colors in colors.xml
+// TODO: App provides sufficient space between text and surrounding elements.
+// TODO: App uses images that are high quality, specific, and full bleed.
+// TODO: App uses fonts that are either the Android defaults, are complementary, and aren't otherwise distracting.
+// TODO: App conforms to common standards found in the Android Nanodegree General Project Guidelines.
+// https://udacity.github.io/android-nanodegree-guidelines/core.html
+// TODO:
+
 /**
  * An activity representing a list of Articles. This activity has different presentations for
  * handset and tablet-size devices. On handsets, the activity presents a list of items, which when
