@@ -9,6 +9,7 @@ import android.content.Loader;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.support.v4.widget.SwipeRefreshLayout;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
@@ -38,18 +39,21 @@ import java.util.GregorianCalendar;
 // is there a Material Design standard up arrow component
 // DONE: App uses CoordinatorLayout for the main Activity.
 // DONE: App theme extends from AppCompat.
-// TODO: App uses an AppBar and associated Toolbars.
+// DONE: App uses an AppBar and associated Toolbars. in activity_article_detail.xml
+// https://developer.android.com/training/appbar/setting-up.html
+// TODO: Fix appbar formatting in activity_article_detail.xml
 // TODO: App provides a Floating Action Button for the most common action(s).
 // TODO: App properly specifies elevations for app bars, FABs, and other elements specified in the Material Design specification.
 // http://www.google.com/design/spec/material-design/introduction.html
 // TODO: App has a consistent color theme defined in styles.xml. Color theme does not impact usability of the app.
+// https://developer.android.com/training/material/theme.html
 // TODO: Fix/remove colors in colors.xml
 // TODO: App provides sufficient space between text and surrounding elements.
 // TODO: App uses images that are high quality, specific, and full bleed.
 // TODO: App uses fonts that are either the Android defaults, are complementary, and aren't otherwise distracting.
 // TODO: App conforms to common standards found in the Android Nanodegree General Project Guidelines.
 // https://udacity.github.io/android-nanodegree-guidelines/core.html
-// TODO:
+
 
 /**
  * An activity representing a list of Articles. This activity has different presentations for
@@ -57,7 +61,9 @@ import java.util.GregorianCalendar;
  * touched, lead to a {@link ArticleDetailActivity} representing item details. On tablets, the
  * activity presents a grid of items as cards.
  */
-public class ArticleListActivity extends ActionBarActivity implements
+// extends AppCompatActivity instead of ActionBarActivity  ???
+
+public class ArticleListActivity extends AppCompatActivity implements
         LoaderManager.LoaderCallbacks<Cursor> {
 
     private static final String TAG = ArticleListActivity.class.toString();
@@ -77,7 +83,7 @@ public class ArticleListActivity extends ActionBarActivity implements
         setContentView(R.layout.activity_article_list);
 
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
-
+        setSupportActionBar(mToolbar);
 
         final View toolbarContainerView = findViewById(R.id.toolbar_container);
 
