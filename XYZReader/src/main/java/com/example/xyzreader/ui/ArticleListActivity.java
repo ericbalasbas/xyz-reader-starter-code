@@ -42,9 +42,10 @@ import java.util.GregorianCalendar;
 // DONE: App uses an AppBar and associated Toolbars. in activity_article_detail.xml
 // https://developer.android.com/training/appbar/setting-up.html
 // TODO: Fix appbar formatting in activity_article_detail.xml
-// TODO: App provides a Floating Action Button for the most common action(s).
-// TODO: App properly specifies elevations for app bars, FABs, and other elements specified in the Material Design specification.
+// DONE: App provides a Floating Action Button for the most common action(s).
+// DONE: App properly specifies elevations for app bars, FABs, and other elements specified in the Material Design specification.
 // http://www.google.com/design/spec/material-design/introduction.html
+// https://material.io/guidelines/material-design/elevation-shadows.html#elevation-shadows-elevation-android
 // TODO: App has a consistent color theme defined in styles.xml. Color theme does not impact usability of the app.
 // https://developer.android.com/training/material/theme.html
 // TODO: Fix/remove colors in colors.xml
