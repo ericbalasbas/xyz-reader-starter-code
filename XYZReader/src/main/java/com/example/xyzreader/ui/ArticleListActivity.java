@@ -35,7 +35,7 @@ import java.util.GregorianCalendar;
 
 // TODO: App uses the Design Support library and its provided widget types (FloatingActionButton, AppBarLayout, SnackBar, etc).
 // DONE: Check res\layout\fragment_article_detail.xml to change to Design Support Library FloatingActionButton
-// TODO: Check res\layout\activity_article_detail.xml action_up to change to ???
+// DONE: Check res\layout\activity_article_detail.xml action_up to change to appbar
 // is there a Material Design standard up arrow component
 // DONE: App uses CoordinatorLayout for the main Activity.
 // DONE: App theme extends from AppCompat.
@@ -52,7 +52,9 @@ import java.util.GregorianCalendar;
 // https://developer.android.com/training/material/theme.html
 // TODO: Fix/remove colors in colors.xml
 // TODO: App provides sufficient space between text and surrounding elements.
-// TODO: App uses images that are high quality, specific, and full bleed.
+// DONE: App uses images that are high quality, specific, and full bleed.
+// https://discussions.udacity.com/t/dynamicheightnetworkimageview-are-images-meant-to-be-full-width/247345/3
+// https://robots.thoughtbot.com/android-imageview-scaletype-a-visual-guide
 // TODO: App uses fonts that are either the Android defaults, are complementary, and aren't otherwise distracting.
 // TODO: App conforms to common standards found in the Android Nanodegree General Project Guidelines.
 // https://udacity.github.io/android-nanodegree-guidelines/core.html
