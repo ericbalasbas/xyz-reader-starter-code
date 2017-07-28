@@ -41,7 +41,9 @@ import java.util.GregorianCalendar;
 // DONE: App theme extends from AppCompat.
 // DONE: App uses an AppBar and associated Toolbars. in activity_article_detail.xml
 // https://developer.android.com/training/appbar/setting-up.html
-// TODO: Fix appbar formatting in activity_article_detail.xml
+// DONE: Fix appbar formatting in activity_article_detail.xml
+// https://discussions.udacity.com/t/toolbar-height-too-small/250537/2
+// https://medium.com/google-developers/why-would-i-want-to-fitssystemwindows-4e26d9ce1eec
 // DONE: App provides a Floating Action Button for the most common action(s).
 // DONE: App properly specifies elevations for app bars, FABs, and other elements specified in the Material Design specification.
 // http://www.google.com/design/spec/material-design/introduction.html
