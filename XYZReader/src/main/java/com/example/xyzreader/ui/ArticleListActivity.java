@@ -55,7 +55,9 @@ import java.util.GregorianCalendar;
 // DONE: App uses images that are high quality, specific, and full bleed.
 // https://discussions.udacity.com/t/dynamicheightnetworkimageview-are-images-meant-to-be-full-width/247345/3
 // https://robots.thoughtbot.com/android-imageview-scaletype-a-visual-guide
-// TODO: App uses fonts that are either the Android defaults, are complementary, and aren't otherwise distracting.
+// DONE: App uses fonts that are either the Android defaults, are complementary, and aren't otherwise distracting.
+// DONE: remove custom font
+// https://material.io/guidelines/style/typography.html
 // TODO: App conforms to common standards found in the Android Nanodegree General Project Guidelines.
 // https://udacity.github.io/android-nanodegree-guidelines/core.html
 
