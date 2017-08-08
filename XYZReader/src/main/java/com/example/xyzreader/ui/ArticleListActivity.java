@@ -10,15 +10,12 @@ import android.database.Cursor;
 import android.os.Bundle;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.support.v7.widget.Toolbar;
 import android.text.Html;
 import android.text.format.DateUtils;
 import android.util.Log;
-import android.util.TypedValue;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
@@ -33,34 +30,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
-// DONE: App uses the Design Support library and its provided widget types (FloatingActionButton, AppBarLayout, SnackBar, etc).
-// DONE: Check res\layout\fragment_article_detail.xml to change to Design Support Library FloatingActionButton
-// DONE: Check res\layout\activity_article_detail.xml action_up to change to appbar
-// is there a Material Design standard up arrow component
-// DONE: App uses CoordinatorLayout for the main Activity.
-// DONE: App theme extends from AppCompat.
-// DONE: App uses an AppBar and associated Toolbars. in activity_article_detail.xml
-// https://developer.android.com/training/appbar/setting-up.html
-// DONE: Fix appbar formatting in activity_article_detail.xml
-// https://discussions.udacity.com/t/toolbar-height-too-small/250537/2
-// https://medium.com/google-developers/why-would-i-want-to-fitssystemwindows-4e26d9ce1eec
-// DONE: App provides a Floating Action Button for the most common action(s).
-// DONE: App properly specifies elevations for app bars, FABs, and other elements specified in the Material Design specification.
-// http://www.google.com/design/spec/material-design/introduction.html
-// https://material.io/guidelines/material-design/elevation-shadows.html#elevation-shadows-elevation-android
-// DONE: App has a consistent color theme defined in styles.xml. Color theme does not impact usability of the app.
-// https://developer.android.com/training/material/theme.html
-// DONE: Fix/remove colors in colors.xml
-// DONE: App provides sufficient space between text and surrounding elements.
-// DONE: Fix spacing problem in fragment_article_detail.xml
-// DONE: App uses images that are high quality, specific, and full bleed.
-// https://discussions.udacity.com/t/dynamicheightnetworkimageview-are-images-meant-to-be-full-width/247345/3
-// https://robots.thoughtbot.com/android-imageview-scaletype-a-visual-guide
-// DONE: App uses fonts that are either the Android defaults, are complementary, and aren't otherwise distracting.
-// DONE: remove custom font
-// https://material.io/guidelines/style/typography.html
-// TODO: App conforms to common standards found in the Android Nanodegree General Project Guidelines.
-// https://udacity.github.io/android-nanodegree-guidelines/core.html
+
 
 
 /**
