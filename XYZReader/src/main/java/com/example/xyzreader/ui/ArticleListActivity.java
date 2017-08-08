@@ -33,7 +33,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
-// TODO: App uses the Design Support library and its provided widget types (FloatingActionButton, AppBarLayout, SnackBar, etc).
+// DONE: App uses the Design Support library and its provided widget types (FloatingActionButton, AppBarLayout, SnackBar, etc).
 // DONE: Check res\layout\fragment_article_detail.xml to change to Design Support Library FloatingActionButton
 // DONE: Check res\layout\activity_article_detail.xml action_up to change to appbar
 // is there a Material Design standard up arrow component
@@ -48,10 +48,11 @@ import java.util.GregorianCalendar;
 // DONE: App properly specifies elevations for app bars, FABs, and other elements specified in the Material Design specification.
 // http://www.google.com/design/spec/material-design/introduction.html
 // https://material.io/guidelines/material-design/elevation-shadows.html#elevation-shadows-elevation-android
-// TODO: App has a consistent color theme defined in styles.xml. Color theme does not impact usability of the app.
+// DONE: App has a consistent color theme defined in styles.xml. Color theme does not impact usability of the app.
 // https://developer.android.com/training/material/theme.html
-// TODO: Fix/remove colors in colors.xml
-// TODO: App provides sufficient space between text and surrounding elements.
+// DONE: Fix/remove colors in colors.xml
+// DONE: App provides sufficient space between text and surrounding elements.
+// DONE: Fix spacing problem in fragment_article_detail.xml
 // DONE: App uses images that are high quality, specific, and full bleed.
 // https://discussions.udacity.com/t/dynamicheightnetworkimageview-are-images-meant-to-be-full-width/247345/3
 // https://robots.thoughtbot.com/android-imageview-scaletype-a-visual-guide
