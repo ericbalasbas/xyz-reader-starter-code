@@ -18,7 +18,17 @@
 <resources>
 
     <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <!-- Material Palette Cyan 500, Secondary A200 -->
+        <item name="colorPrimary">#00bbd3</item>
+        <item name="colorPrimaryDark">#008ba2</item>
+        <item name="colorAccent">#62eeff</item>
+    </style>
 
+
+    <style name="Theme.Bacon.Secondary" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <!-- Material Palette Cyan 500, Secondary A200 -->
+        <item name="colorPrimary">#18ffff</item>
+        <item name="colorPrimaryDark">#00cbcc</item>
     </style>
 
     <style name="Theme.Bacon.Detail">
