@@ -21,7 +21,7 @@
         <!-- Material Palette Cyan 500, Secondary A200 -->
         <item name="colorPrimary">#00bbd3</item>
         <item name="colorPrimaryDark">#008ba2</item>
-        <item name="colorAccent">#62eeff</item>
+        <item name="colorAccent">#f44336</item>
     </style>
 
 
