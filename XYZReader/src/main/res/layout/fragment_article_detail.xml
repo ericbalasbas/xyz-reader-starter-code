@@ -35,6 +35,7 @@
 
 
             <com.example.xyzreader.ui.MaxWidthLinearLayout
+                android:id="@+id/linear_layout"
                 android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -42,7 +43,7 @@
                 android:maxWidth="@dimen/detail_card_max_width"
                 android:background="#fff"
                 android:elevation="2dp"
-                android:layout_marginTop="270dp">
+                android:layout_marginTop="@dimen/detail_card_top_margin">
 
                 <LinearLayout
                     android:id="@+id/meta_bar"

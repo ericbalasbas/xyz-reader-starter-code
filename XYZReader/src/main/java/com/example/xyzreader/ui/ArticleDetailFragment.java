@@ -27,6 +27,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.android.volley.VolleyError;
@@ -203,6 +204,7 @@ public class ArticleDetailFragment extends Fragment implements
         TextView bylineView = (TextView) mRootView.findViewById(R.id.article_byline);
         bylineView.setMovementMethod(new LinkMovementMethod());
         TextView bodyView = (TextView) mRootView.findViewById(R.id.article_body);
+        final MaxWidthLinearLayout linearLayout = (MaxWidthLinearLayout) mRootView.findViewById(R.id.linear_layout);
 
 
         if (mCursor != null) {
@@ -240,6 +242,14 @@ public class ArticleDetailFragment extends Fragment implements
                                 mMutedColor = p.getDarkMutedColor(0xFF333333);
 
                                 mPhotoView.setImageBitmap(bitmap);
+
+                                // set top margin for MaxWidthLinearLayout to show full bleed image
+                                // https://stackoverflow.com/questions/2481455/set-margins-in-a-linearlayout-programmatically/40144200#40144200
+
+                                int photo_height = bitmap.getHeight();
+                                Log.i(TAG, "photo height: " + photo_height);
+                                ViewGroup.MarginLayoutParams layoutParams = (ViewGroup.MarginLayoutParams) linearLayout.getLayoutParams();
+                                layoutParams.setMargins(0, photo_height, 0, 0);
 
                                 mRootView.findViewById(R.id.meta_bar)
                                         .setBackgroundColor(mMutedColor);
